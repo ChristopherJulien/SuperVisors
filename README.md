@@ -47,7 +47,6 @@ void manualModeInterrupt() {
 	if(button held for 1 second) {
 		manualMode = !manualMode
 	}
-	
 	else {
 //in manual mode, change State
 		if(manualMode == 1 && State = ‘open’) {
