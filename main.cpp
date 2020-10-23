@@ -15,6 +15,7 @@ if(measureValues == 1 && manualMode == 0) {
 measureValues = 0
 }
 
+
 switch State {
 case ‘open’
 		control motor
