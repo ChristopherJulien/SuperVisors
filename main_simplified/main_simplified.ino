@@ -271,7 +271,7 @@ void loop() {
     Serial.println(" %");
     // print an empty line
     Serial.println();
-    previousTimeTemperature = temperatureInterval;
+    previousTimeTemperature = currentTime;
   }
 
   //Measure PRESSURE every 200ms
